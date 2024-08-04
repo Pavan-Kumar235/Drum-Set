@@ -1,0 +1,148 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    background-image: url('./images/drum-kit-bg.png');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+h1 {
+    font-size: 60px;
+    color: rgb(26, 255, 0);
+}
+h2 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.container {
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.content {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 110px 110px 110px 110px 110px 110px 110px 110px 110px 110px;
+    gap: 15px; 
+    background-color: rgb(45, 107, 45);
+    border-radius: 10px;
+}
+button {
+    height: 110px;
+    font-size: 50px;
+    color: rgb(255, 85, 0 );
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    border: 10px solid rgb(40, 62, 69);
+}
+.q {
+    background-image: url("images/btn6.png");
+}
+.w {
+    background-image: url("images/btn7.png");
+}
+.e {
+    background-image: url("images/btn8.png");
+}
+.r {
+    background-image: url("images/btn9.png");
+}
+.t {
+    background-image: url("images/btn3.png");
+}
+.y {
+    background-image: url("images/btn1.png");
+}
+.u {
+    background-image: url("images/btn2.png");
+}
+.i {
+    background-image: url("images/btn3.png");
+}
+.o {
+    background-image: url("images/btn4.png");
+}
+.p {
+    background-image: url("images/btn5.png");
+}
+/*-----------------------------------------------------------------------------*/
+.a, .s, .d, .h, .j, .k {
+    color: white;
+}
+.a {
+    background-image: url("images/btn1.png");
+    grid-area: 2/2;
+}
+.s {
+    background-image: url("images/btn2.png");
+    grid-area: 2/3;
+}
+.d {
+    background-image: url("images/btn3.png");
+    grid-area: 2/4;
+}
+.f {
+    background-image: url("images/btn4.png");
+    color: blue;
+    grid-area: 2/5;
+}
+.g {
+    background-image: url("images/btn5.png");
+    color: blue;
+    grid-area: 2/6;
+}
+.h {
+    background-image: url("images/btn6.png");
+    grid-area: 2/7;
+}
+.j {
+    background-image: url("images/btn7.png");
+    grid-area: 2/8;
+}
+.k {
+    background-image: url("images/btn8.png");
+    grid-area: 2/9;
+}
+/*----------------------------------------------------------------*/
+.x, .c, .v, .b, .n, .m {
+    color: green;
+}
+.x {
+    grid-area: 3/3;
+    background-image: url("images/btn5.png");
+}
+.c {
+    grid-area: 3/4;
+    background-image: url("images/btn6.png");
+}
+.v {
+    grid-area: 3/5;
+    background-image: url("images/btn1.png");
+}
+.b {
+    grid-area: 3/6;
+    background-image: url("images/btn2.png");
+}
+.n {
+    grid-area: 3/7;
+    background-image: url("images/btn3.png");
+}
+.m {
+    grid-area: 3/8;
+    background-image: url("images/btn9.png");
+}
+
+.btn {
+    background-position: center;
+    background-size: cover;
+    transition: 0.4s;
+}
+
+.animation {
+    border: 10px solid black;
+    transform: scale(0.8);
+}
