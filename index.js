@@ -30,7 +30,7 @@ function makeSound(key) {
 
     for(var j=0;j<array.length;j++) {
         if(array[j].innerHTML === key) {
-            var audioPath = new Audio("assets/" + (j+1) + ".mp3");
+            var audioPath = new Audio((j+1) + ".mp3");
             audioPath.play();
         }
     }
