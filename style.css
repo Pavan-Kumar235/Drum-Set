@@ -1,7 +1,7 @@
 body {
     padding: 0%;
     margin: 0%;
-    background-image: url('./images/drum-kit-bg.png');
+    background-image: url('drum-kit-bg.png');
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -40,71 +40,71 @@ button {
     border: 10px solid rgb(40, 62, 69);
 }
 .q {
-    background-image: url("images/btn6.png");
+    background-image: url("btn6.png");
 }
 .w {
-    background-image: url("images/btn7.png");
+    background-image: url("btn7.png");
 }
 .e {
-    background-image: url("images/btn8.png");
+    background-image: url("btn8.png");
 }
 .r {
-    background-image: url("images/btn9.png");
+    background-image: url("btn9.png");
 }
 .t {
-    background-image: url("images/btn3.png");
+    background-image: url("btn3.png");
 }
 .y {
-    background-image: url("images/btn1.png");
+    background-image: url("btn1.png");
 }
 .u {
-    background-image: url("images/btn2.png");
+    background-image: url("btn2.png");
 }
 .i {
-    background-image: url("images/btn3.png");
+    background-image: url("btn3.png");
 }
 .o {
-    background-image: url("images/btn4.png");
+    background-image: url("btn4.png");
 }
 .p {
-    background-image: url("images/btn5.png");
+    background-image: url("btn5.png");
 }
 /*-----------------------------------------------------------------------------*/
 .a, .s, .d, .h, .j, .k {
     color: white;
 }
 .a {
-    background-image: url("images/btn1.png");
+    background-image: url("btn1.png");
     grid-area: 2/2;
 }
 .s {
-    background-image: url("images/btn2.png");
+    background-image: url("btn2.png");
     grid-area: 2/3;
 }
 .d {
-    background-image: url("images/btn3.png");
+    background-image: url("btn3.png");
     grid-area: 2/4;
 }
 .f {
-    background-image: url("images/btn4.png");
+    background-image: url("btn4.png");
     color: blue;
     grid-area: 2/5;
 }
 .g {
-    background-image: url("images/btn5.png");
+    background-image: url("btn5.png");
     color: blue;
     grid-area: 2/6;
 }
 .h {
-    background-image: url("images/btn6.png");
+    background-image: url("btn6.png");
     grid-area: 2/7;
 }
 .j {
-    background-image: url("images/btn7.png");
+    background-image: url("btn7.png");
     grid-area: 2/8;
 }
 .k {
-    background-image: url("images/btn8.png");
+    background-image: url("btn8.png");
     grid-area: 2/9;
 }
 /*----------------------------------------------------------------*/
@@ -113,27 +113,27 @@ button {
 }
 .x {
     grid-area: 3/3;
-    background-image: url("images/btn5.png");
+    background-image: url("btn5.png");
 }
 .c {
     grid-area: 3/4;
-    background-image: url("images/btn6.png");
+    background-image: url("btn6.png");
 }
 .v {
     grid-area: 3/5;
-    background-image: url("images/btn1.png");
+    background-image: url("btn1.png");
 }
 .b {
     grid-area: 3/6;
-    background-image: url("images/btn2.png");
+    background-image: url("btn2.png");
 }
 .n {
     grid-area: 3/7;
-    background-image: url("images/btn3.png");
+    background-image: url("btn3.png");
 }
 .m {
     grid-area: 3/8;
-    background-image: url("images/btn9.png");
+    background-image: url("btn9.png");
 }
 
 .btn {
